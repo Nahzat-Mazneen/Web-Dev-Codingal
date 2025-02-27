@@ -1,0 +1,24 @@
+html{
+    height:100%;
+    weight:100%;
+  }
+  h1{
+    font-size:38px;
+    font-wight:bold;
+  }
+  h2{
+    color:violet;
+    font-size:20px;
+  }
+  .myclass{
+    color:orchid;
+    font-size:20px;
+  }
+  #myid{
+    color:blueviolet;
+    font-size:20px;
+  }
+  h4,k{
+    color:cadetblue;
+    font-size:20px;
+  }

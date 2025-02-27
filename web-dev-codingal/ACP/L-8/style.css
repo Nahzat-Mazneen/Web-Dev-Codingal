@@ -1,0 +1,32 @@
+body{
+    background-color: hotpink;
+    background-image: url("colour-meanings-around-the-world.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:left bottom;
+    background-size: cover;
+
+  }
+#grad1 {
+  width:200px;
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+@keyframes example{
+  0% {background-color: red;}
+  20% {background-color: yellow;}
+ 40% {background-color: blue;}
+80% {background-color: green;}
+  100% {background-color: chocolate;}
+}
+#k{
+  width: 200px;
+  height: 200px;
+  background-color: fuchsia;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+
+ 

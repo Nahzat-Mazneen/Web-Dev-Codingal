@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Typography</title>
+  <style>
+    *{
+      text-align:center;
+      font-family:monospace;
+    }
+.text1{
+ color:darkcyan;
+  font-size:30px;
+ }
+    .text2{
+      color:orangered;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    #text3{
+
+      width:300px;
+      height:100px;
+      background-color:gold;
+      border:3px solid darkcyan;
+      transform:rotatex(180deg);
+    }
+      
+    k{
+      text-decoration: underline;
+      text-transform: capitalize;
+    }
+    h2{
+      text-decoration: line-through;
+      text-transform: uppercase;
+    }
+    h3{
+      text-decoration: overline;
+      text-transform: lowercase;
+    }
+    h4{
+      text-decoration: underline overline;
+      text-transform: none;
+    }
+    #text4{
+      text-shadow:5px 5px 1.5px #CC5500;
+    }
+    #text5{
+      box-shadow:5px 5px 1.5px #CC5500;
+    }
+    #indent{
+      width:300px;
+      height:100px;
+      background-color:gold;
+      border:3px solid darkcyan;
+      text-indent:50%;
+       /* //16px or -3em */
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+  <h1>Hi</h1>
+  <p class="text1">Let's play with Text!</p>
+  <p class="text2">Look at this font size!</p>
+  <h1>Rotation...</h1>
+  <div id="text3">What's happening!</div>
+  <h1>Decoration....</h1>
+  <h1>Today's Topic is <k>Text Decoration</k></h1>
+  <h2>Avoid This</h2>
+  <h3>Overline</h3>
+  <h4>Underline Overline</h4>
+  <h1>Shadow:</h1>
+  <h2 id="text4">Text Shadow...</h2><br><br>
+  <h2 id="text5">Can you see this box shadow....?</h2>
+  <h1>Text Indent</h1>
+  <div>
+    <p id="indent">Indentation such an amazing element..</p>
+  </div>
+</body>
+
+</html>

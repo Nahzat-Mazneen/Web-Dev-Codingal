@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HtmlCss</title>
+  <style>
+    h1{
+      text-align: center;
+      font-style: italic;
+      font-size: 50px;
+    }
+    h2{
+      text-align: center;
+      font-style: italic;
+      font-size: 40px;
+    }
+    body{
+      background-color:coral; 
+      background-image: url("Dinosaur.jpg"); 
+      background-position: bottom;
+      background-attachment:fixed;
+      background-size:cover;
+
+    }
+    h3{
+      text-align: center;
+      font-style: italic;
+      font-size: 25px;
+      color:darkred;
+    }
+    #grad1{
+      height:300px;
+      width:200px;
+      background-color: green;
+      padding: 20%;
+      border: 5px solid black;
+      margin: 70px 80px; 
+      font-size:15px;
+      background-position:bottom-right ;
+      }
+    p::first-letter{
+    color:red;
+    font-size: 200%;
+    }
+    
+
+      ul li::before{
+        content:"🚀";
+      }
+    ul li::after{
+      content:"🌌";
+    }
+    ul>li{
+      color:pink;
+      font-size:20px;
+    }
+    ul li:hover{
+      color: red;
+    }
+    
+    ol li:nth-child(3){
+      background-color: yellow;
+    }
+    ol>li{
+      color:darkred;
+      font-size:20px;
+    }
+    ol li:hover{
+      color:fuchsia;
+    }
+    h5+k{
+      font-weight: bold;
+      color:yellowgreen;
+      font-size:20px;
+    }
+    l{
+      font-size:20px;
+    }
+    div:not(.div3){
+      border:3px dashed red;
+    }
+    .div1,.div2,.div3{
+      font-size:20px;
+      color:yellow;
+      font-weight:bold
+    }
+    a:hover{
+      color:palegreen;
+    }
+    a{
+      font-size: 30px;
+      color:darkred;
+      text-align: center;
+    }
+  input[type="text"]{
+    border=2px solid yellow;
+    
+  }
+    
+  </style>
+
+  
+</head>
+
+<body>
+  <h1 style=color:orange>Toggy Fun</h1>
+  <h2 style=color:green>World</h2>
+  <h3><b>Feel The THrill</b></h3>
+  <p id=grad1 style=color:white >Toggy Fun World is a place of thrilling and exciting games.It's located at Bashundhara City Shopping Mall,Dhaka,Bangladesh.Toddler to adult anyone can enjoy here as we are getting 3D games,E sports,Mirror maze etc etc.
+    Visiting Dinosaur world,riding rollarcoster,flying in the sky in 3D way....Sounds amazing right?These are for adults.But there are also a complete kids place .All the park elements are here at one place.In this page you are gonna know what is  new in this world.
+  Don't forget to visit once!</p>
+  <p id=grad2><h1 style=color:fuchsia>Let's know what's for kids..</h1>
+  <ul>
+    <li>Carousel</li>
+    <li>Toddler zone</li>
+    <li>Kid's Trampoline</li>
+    <li>Just Kids Dance</li>
+    <li>Operation ghost</li>
+  </ul></p>
+  <p id=grad3><h1 style=color:blue>Let's know what's for adults...
+  <ol>
+    <li>Robotic Roller coaster</li>
+    <li>Paint Ball</li>
+    <li>Escape room</li>
+    <li>Drangon Haunter</li>
+    <li>Jurassic Escape VR</li>
+  </ol>
+    <h5 style=color:yellow;>Don't you wanna know the ticket price?</h5>
+    <k >You're gonna have an entry at just Tk.99</k><hr>
+     <l style=color:orange;> And other rides are start from tk.150..
+     </l><hr>
+    <h1 style=color:papayawhip>Advantages?</h1>
+    <div class="div1">1.This palce are enjoyable with friends.</div><hr>
+    <div class="div2">2.Also can be spend a beautiful time with family. </div><hr>
+    <div class="div3">3.Kids can receive an amazing environment..from their boring,alone house life.</div><hr>
+    <h3 style=color:gold>Now you should visit the site right?</h3>
+    <a href="https://www.toggifunworld.com/?srsltid=AfmBOoqDxE4wA7qtR2ZtERXWhrq98_JEPU9pkusic_QcKWoGHIX-3UUQ" >Go fast!</a><hr>
+    <form>
+      <fieldset>
+      <lagend style=color:gold;>After all of this give a touch of your excitement!</lagend><br>
+      <input type="text" placeholder="Enter your comment"><br>
+      <button>Submit</button>
+      </fieldset>
+    </form>
+</body>
+
+</html>
