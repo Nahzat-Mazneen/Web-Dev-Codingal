@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Type</title>
+       
+    </head>
+
+    <body>
+        <h1>Activity-1</h1>
+  <h1>JavaScript Data Types</h1>
+  
+  <script>
+    var a=8;
+    var b=10;
+    var d=null;
+    var e;  //undefined variable
+
+    //block started
+    {
+        let a=2;
+        //Here  value of a is 2 but only within the block
+        const b=8;
+        document.write("<br>");
+
+        document.write("The value of a inside block is :"+a);
+        document.write("<br>");
+        document.write("The value of b inside block is:"+b);
+    }
+ //= == ===
+ document.write("<br>");
+
+
+ document.write("if a and b are equal:" + (a==b));
+ document.write("<br>");
+ document.write("The value of d is:" +d);
+ document.write("<br>");
+ document.write("The value of e is:" +e);
+ document.write("<br>");
+ document.write("The value of a is:" +a);
+ document.write("<br>");
+ document.write("The value of b is:" +b);
+ 
+
+
+
+  </script>
+  <h1>Activity-2</h1>
+  <p>Click the button to get a time based greeting:</p>
+  <button onclick="myFunction()">Try it</button>
+  <p id="hour"></p>
+  <p id="greet"></p>
+  <script>
+ function myFunction(){
+    var greeting;
+
+    var time= new Date().getHours();
+    //var time=9;
+
+    if (time < 10){
+        greeting="Good Morning";
+    }
+
+    if(time < 20){
+        greeting="Good Day";
+    }
+
+    else{
+        greeting="Good evening";
+    }
+
+    document.getElementById("hour").innerHTML="Current Hour is:"+ time;
+    document.getElementById("greet").innerHTML=greeting;
+ }
+  </script>
+  <h1>Activity-3</h1>
+  <h1>JavaScript While Loop</h1>
+  <p id="number"></p>
+<script>
+var text="";
+var i=0;
+while(i< 10){
+    text +="<br>The number is" +i;
+    i
+}
+</script>
+    </body>
+</html>
